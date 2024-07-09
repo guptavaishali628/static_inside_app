@@ -8,11 +8,21 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>welcome to home</h1>
-    <img src="{% static 'img/vaishali.jpeg' %}" height="20%" width="30%", alt="vaishali_gupta">
-    <video width="30%" height="20%" controls>
-        <source src="{% static 'vdo/new.mp4'}">
+    <h1 class="div">Nature's Beauty</h1>
+    <img src="{% static 'img/vaishali.jpeg' %}", alt="vaishali_gupta">
+    <video width="30%" height="260px" controls>
+        <source src="{% static 'vdo/new.mp4' %}" type="video/mp4">
+        your browser does not support the video tag.
     </video>
-    
+    <img src="{% static 'img/image2.jpeg' %}", alt="vaishali_gupta">
+    <video controls>
+        <source src="{% static 'vdo/vaishali.mp4' %}" type="video/mp4">
+        your browser does not support the video tag.
+    </video>
+    <img src="{% static 'img/image3.jpeg' %}", alt="vaishali_gupta">
+    <video controls>
+        <source src="{% static 'vdo/video2.mp4' %}" type="video/mp4">
+        your browser does not support the video tag.
+    </video>
 </body>
 </html>
